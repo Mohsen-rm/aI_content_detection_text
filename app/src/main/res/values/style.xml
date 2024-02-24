@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- res/values-night/styles.xml -->
+
+    <style name="AppThemeNight" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your night theme here. -->
+        <item name="colorPrimary">@color/night_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item>
+        <item name="colorAccent">@color/night_colorAccent</item>
+        <!-- Add more night mode customizations as needed -->
+    </style>
+
+
+</resources>

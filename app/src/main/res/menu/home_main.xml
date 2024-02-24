@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/night_mode"
+        android:icon="@drawable/ic_night_mode"
+        android:title="Night Mode"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/day_mode"
+        android:icon="@drawable/ic_day_mode"
+        android:title="Day Mode"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share_the_app"/>
+
+    <item
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="@string/rate_the_application"
+        android:id="@+id/me_like"></item>
+
+    <item
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="@string/privacy_policy"
+        android:id="@+id/me_about"></item>
+
+    <item
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="@string/connect_with_us"
+        android:id="@+id/me_call_me"></item>
+
+    <item
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="@string/exit_the_application"
+        android:id="@+id/me_close"></item>
+
+</menu>

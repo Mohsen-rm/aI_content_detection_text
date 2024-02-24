@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AI content detection</string>
+    <string name="share_the_app">Share the app</string>
+    <string name="rate_the_application">Rate the application</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="connect_with_us">Connect with us</string>
+    <string name="exit_the_application">Exit the application</string>
+</resources>
